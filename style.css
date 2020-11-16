@@ -1,0 +1,232 @@
+html {
+    background: #C4C4C4;
+    border-radius: 15px;
+    margin: 0;
+}
+
+body {
+    margin: 0;
+}
+
+p {
+    font-family: 'Arial Narrow';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 13px;
+    color: black;
+}
+
+.flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.flex:first-child {
+    justify-content: flex-end;
+}
+
+.menu-btn {
+    width: 64px;
+    height: 19px;
+    margin: 10px;
+    background: rgba(255, 255, 255, 0.84);
+    border: 0.3px solid #919191;
+    box-sizing: border-box;
+    border-radius: 12px;
+    font-family: 'Arial Narrow';
+    font-weight: bold;
+    font-size: 11px;
+    line-height: 13px;
+    text-align: center;
+    color: #919191;
+}
+
+.menu-btn:first-child{
+    color: #FA8010;
+}
+
+#banner {
+    position: relative;
+    height: 70vh;
+    background: url('banner.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 30px 50px;
+}
+
+#banner p {
+    width: 30%;
+    color: white;
+    margin: 50px 0;
+}
+
+h1 { 
+    font-family: Quattrocento;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 42px;
+    line-height: 47px;
+    color: #FFFFFF;
+}
+
+.btn-primary {
+    background: linear-gradient(90deg, #FA8010 1.77%, #FAB810 100%);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), -4px -4px 4px rgba(255, 255, 255, 0.77);
+    border-radius: 12px;
+    color: white;
+    border-color: transparent;
+}
+
+.btn-secondary {
+    margin: 20px 0;
+    background: #FFFFFF;
+    box-shadow: 2px 2px 3px rgba(250, 128, 16, 0.25), -2px -2px 3px rgba(250, 128, 16, 0.25);
+    border-radius: 12px;
+    border-color: transparent;
+    color: #FA8010;
+}
+
+#login {
+    position: absolute;
+    width: 190px;
+    height: 228px;
+    right: 100px;
+    bottom: -90px;
+    background: linear-gradient(147.03deg, #ECECEC 2.59%, #FFFFFF 100%);
+    border: 0.2px solid rgba(145, 145, 145, 0.24);
+    box-sizing: border-box;
+    border-radius: 12px;
+    text-align: center;
+    padding: 20px;
+}
+
+#login input {
+    background: #FAFAFA;
+    border-color: transparent;
+    box-shadow: inset 2px 2px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 12px;
+}
+
+.card-horiz {
+    display: flex;
+    flex-direction: row;
+    width: 60vw;
+    height: 130px;
+    background: linear-gradient(147.03deg, #ECECEC 2.59%, #FFFFFF 100%);
+    border: 0.7px solid rgba(145, 145, 145, 0.24);
+    border-radius: 0px 12px 12px 0px;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.card-vertical {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    height: 50vh;
+    background: linear-gradient(147.03deg, #ECECEC 2.59%, #FFFFFF 100%);
+    border: 0.7px solid rgba(145, 145, 145, 0.24);
+    border-radius: 0px 12px 12px 0px;
+    text-align: center;
+}
+
+.card-vertical-top {
+    width: 100%;
+    height: 50%;
+    background: url('madere.jpg');
+    background-size: cover;
+}
+
+.card-vertical-bottom {
+    width: 100%;
+    height: 50%;
+}
+
+.card-horiz-left {
+    width: 25%;
+    height: 100%;
+    background: url('madere.jpg');
+    background-size: cover;
+}
+
+.card-horiz-right {
+    padding: 25px 50px;
+}
+
+.rectangle {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 30px;
+    filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.52)), drop-shadow(-2px -2px 4px rgba(255, 255, 255, 0.73));
+    background: linear-gradient(147.03deg, #ECECEC 2.59%, #FFFFFF 100%);
+    border: 1.2px solid rgba(145, 145, 145, 0.24);
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 12px;
+    padding: 30px 50px;
+}
+
+.rectangle-gauche {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.rectangle-droite {
+    padding: 0.85em 0;
+}
+
+.img {
+    width: 200px;
+    height: 200px;
+    border: 8px solid #F0EEEC;
+    box-sizing: border-box;
+    border-radius: 50%;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    background: url('vietnam.jpg');
+}
+
+.petit-rond-container {
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.petit-rond {
+    margin: 5px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    border: 1px solid orange;
+}
+
+.petit-rond:first-child {
+    background-color: orange;
+}
+
+span {
+    color: orange;
+}
+
+#paris-branly {
+    background: url('musée-quai-branly.jpg');
+    background-size: cover;
+    width: 75%;
+}
+
+#indications {
+    text-align: center;
+    width: 25%;
+    padding: 25px;
+}
+
+.indications-img {
+    width: 100%;
+    height: 100%;
+    filter: drop-shadow(-2px -2px 4px rgba(255, 255, 255, 0.84));
+    border-radius: 12px;
+}
